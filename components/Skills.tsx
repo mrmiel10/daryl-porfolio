@@ -26,7 +26,9 @@ export const Skills = () => {
           React
         </h3>
         <p className='text-sm text-muted-foreground'>
-        <Code  className="text-white inline-flex items-center gap-1"><ReactIcon fill='currentColor' size={16} />React Js</Code>
+        <Code  className="text-white inline-flex items-center gap-1">
+          {/* <ReactIcon fill='currentColor' size={16} /> */}
+          React Js</Code>
          {" "}React js is a javaScript library for building user interfaces. I build scalable and high-performance web applications that enhance user experience.
 
         </p>
@@ -43,7 +45,9 @@ export const Skills = () => {
         </h3>
         <p className='text-sm text-muted-foreground'>
 
-         I use <Code  className="text-white inline-flex items-center gap-1"><TailwindLogo fill='currentColor' size={16} />TailwindCSS</Code> to create rapid and customizable user interfaces. This enabled me to accelerate my development process and build modern, responsive web applications.
+         I use <Code  className="text-white inline-flex items-center gap-1">
+          {/* <TailwindLogo fill='currentColor' size={16} /> */}
+          TailwindCSS</Code> to create rapid and customizable user interfaces. This enabled me to accelerate my development process and build modern, responsive web applications.
         </p>
 
     </div>
@@ -58,7 +62,7 @@ export const Skills = () => {
         </h3>
         <p className='text-sm text-muted-foreground'>
 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo cumque placeat molestiae, asperiores id quaerat dolores quibusdam repudiandae vitae est odio. Eaque, delectus velit facilis optio vero assumenda aperiam!
+       I create modern, high-performance web applications by leveraging the full-stack capabilities of <Code  className="text-white inline-flex items-center gap-1">Next.js</Code>. This framework allows me to work seamlessly across both the front-end and back-end.
         </p>
 
     </div>
