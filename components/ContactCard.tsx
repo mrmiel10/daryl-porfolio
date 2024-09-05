@@ -7,13 +7,13 @@ export type ContactCard = {
     mediumImage: string;
     name: string;
     description: string;
-    url?: string;
+    url: string;
     className?:string
   }
   
  export const ContactCard = (props:ContactCard) => {
     return (
-      <Link href={props.name} className={cn(
+      <Link href={props.url} className={cn(
         "w-full",props.className
       )}>
         <Card className="p-3 bg-accent/10 flex items-center gap-4 hover:bg-accent/30 group transition-colors">
