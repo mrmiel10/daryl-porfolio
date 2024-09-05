@@ -24,8 +24,8 @@ const Hero = () => {
         <h3 className=" m-0 text-3xl max-md:text-2xl font-caption">
          
           {/* <ChevronRight className=" text-4xl" /> */}
-          &gt; <span className="text-primary">Software</span> engineer, web
-          developer,and <SparklesText colors={{first: '#FFFF', second: '#1d4ed8'}} as={<span />}  text="Typescript" className="text-blue-700 text-3xl max-md:text-2xl" /> 
+          &gt; <span className="text-primary font-semibold">Software</span> engineer, web
+          developer,and <SparklesText colors={{first: '#FFFF', second: '#1d4ed8'}} as={<span />}  text="Typescript" className="text-blue-700 text-3xl max-md:text-2xl font-semibold" /> 
           {" "}enthusiast.
         </h3>
         <p className="text-base">
